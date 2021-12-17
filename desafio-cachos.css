@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .mobile-menu{
+    display: none;
+}
+.mobile {
+    display: none;
+}
+.desktop-menu{
+position: fixed;
+padding-left:8.5em;
+bottom: 90%;
+background-color: white;
+width:100%;
+height: 12%;
+z-index: 2;
+}
+input[type=checkbox]{
+visibility: hidden;
+}
+li{
+    display: inline-flex;
+}
+.links-menu{
+    position: relative;
+    top: 35px;
+    width: auto;
+    padding-right: 50px;
+    font: 400 15px Montserrat;
+    color: #9767A9;
+}
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color:#9767A9;
+}
+.logo{
+    position: absolute;
+    width: 7%;
+    left:1%;
+    top: 30%;
+}
+.container{
+    position: relative;
+    left: 820px;
+    width:20%;
+    top:40px;
+}
+input{
+    position: absolute;
+    padding-left: 30px;
+    height:27px;
+    bottom:0.6%;
+    border: 2.7px solid #9767A9;
+    border-radius: 50px;
+}
+button{
+    position: absolute;
+    bottom: 0.1px;
+    left:5px;
+    border: none;
+    background: transparent;
+    z-index: 2;
+    cursor: pointer;
+}
+.midias-sociais{
+    position: relative;
+    top: 60%;
+}
+.facebook{
+    position: absolute;
+    bottom:92%;
+    left:86%;
+    z-index: 2;
+}
+.instagram{
+    position: absolute;
+    bottom:92%;
+    left:90%;
+    z-index: 2;
+}
+.youtube{
+    position: absolute;
+    bottom:92%;
+    left:94%;
+    z-index: 2;
+}
+
+.modelo{
+    position:absolute;
+    width: 100%;
+}
+h1{
+    position:absolute;
+    top: 45%;
+    left: 15%;
+    z-index:1;
+    font-size: 65px;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    z-index: 1;
+}
+h3{
+    position:absolute;
+    top: 55%;
+    left:59vw;
+    z-index: 1;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;    
+    font-weight:100;
+    color:white;
+    letter-spacing: -1.2px;
+}
+.retangulo-topo{
+    position: relative;
+}
+.primeiro-retangulo{
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    height:250px;
+    background:#9767A9 0% 0% no-repeat padding-box;
+}
+.passos{
+    position:absolute;
+    font: normal normal 900 40px Playfair Display;
+    color: #fff;
+    left:10%;
+    top:10%;
+}
+.texto{
+    position:absolute;
+    font: normal normal 100 18px Montserrat;
+    color: #fff;
+    left:60%;
+    top:10%;
+}
+.coluna-um{
+    margin-top: 55%;
+    margin-left: 13%;
+}
+.espelho{
+    position: relative;
+    width: 450px;
+}
+.retangulo-espelho{
+    position: absolute;
+    top: 175%;
+    right:56.6%;
+    width: 360px;
+    height:290px;
+    background:#9767A9;
+    z-index: 1;
+}
+.dica{
+    position: absolute;
+    font-family: Playfair Display;
+    color: white;
+    top:10px;
+    left: 20px;
+    z-index: 1;
+}
+.texto-espelho{
+    position: absolute;
+    top:28%;
+    margin-left: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+.praia{
+    position: absolute;
+    width: 450px;
+    top:120%;
+    left: -13%;
+}
+.retangulo-praia{
+    position: absolute;
+    top: 210%;
+    right:2%;
+    width: 360px;
+    height:200px;
+    background:#9767A9;
+    z-index: 1;
+}
+.texto-praia{
+    position: absolute;
+    top:40%;
+    margin-left: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+.garota-mae{
+    position: absolute;
+    width: 450px;
+    top:295%;
+    left: -13%;
+}
+.retangulo-mae{
+    position: absolute;
+    top: 390%;
+    right:2%;
+    width: 350px;
+    height:240px;
+    background:#9767A9;
+    z-index: 1;
+}
+.texto-mae{
+    position: absolute;
+    top:20%;
+    margin-left: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+.fios-brancos{
+    position: absolute;
+    width: 450px;
+    top:490%;
+    left: -13%;
+}
+.retangulo-fios{
+    position: absolute;
+    top: 590%;
+    right:2%;
+    width: 350px;
+    height:185px;
+    background:#9767A9;
+    z-index: 1;
+}
+.texto-fios{
+    position: absolute;
+    top:25%;
+    margin-left: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+.coluna-dois{
+    margin-left: 55%;
+}
+.maju{
+    position: absolute;
+    top:160%;
+    width: 450px;
+}
+.retangulo-maju{
+    position: absolute;
+    top: 210%;
+    right:15%;
+    width: 350px;
+    height:270px;
+    background:#9767A9;
+    z-index: 1;
+}
+.texto-maju{
+    position: absolute;
+    top:20%;
+    margin-left: 8px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+.rainha{
+    position: absolute;
+    top:120%;
+    right:-13%;
+    width: 450px;
+}
+.retangulo-rainha{
+    position: absolute;
+    top: 230%;
+    right:2%;
+    width: 350px;
+    height:235px;
+    background:#9767A9;
+    z-index: 1;
+}
+.texto-rainha{
+    position: absolute;
+    top:25%;
+    margin-left: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+.lavando{
+    position: absolute;
+    top:340%;
+    width: 450px;
+    right:-12%;
+}
+.retangulo-lavando{
+    position: absolute;
+    top: 450%;
+    right:2%;
+    width: 350px;
+    height:200px;
+    background:#9767A9;
+    z-index: 1;
+}
+.texto-lavando{
+    position: absolute;
+    top:25%;
+    margin-left: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+.cachinho{
+    position: absolute;
+    top:460%;
+    left: 58%;
+}
+.cachos{
+    width: 70%;
+}
+
+
+.row{
+    display:flex;
+    padding: 0 4px;
+}
+.column{
+    position: relative;
+    top: 310vh;
+    flex: 20%;
+    left: 15%;
+    margin-right: -5%;
+    max-width: 19%;
+}
+.column img{
+    width: 70%;
+}
+.rei{
+    position: relative;
+    right: 33%;
+    width: 150%;
+}
+.gloria{
+    position:relative;
+    width: 150%;
+    right:33%;
+}
+.thais{
+    width:98%;
+}
+.grace{
+    width:98%;
+}
+.snoopy{
+    width: 98%;
+}
+.cabeludao{
+    width: 150%;
+}
+.colunas{
+    position: relative;
+    left:35%;
+}
+footer{
+    position: absolute;
+    top: 592%;
+    background-color:#9767A9;
+    width:100%;
+    height: 14%;
+}
+.creditos{
+    position: relative;
+    top: 20px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: start;
+    padding:10px;
+}
+.config-nav{
+    position: absolute;
+    width: 30%;
+    bottom: 95%;
+    left:45%;
+    padding: 10px;
+}
+.seg-nav{
+    display: flex;
+    justify-content:end;
+    font-size: 20px/24px;
+    font-family: Montserrat;
+    font-weight: 100;
+}
+.antes{
+    position: absolute;
+    left: 350px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+}
+.esquerda{
+    position: relative;
+    top:35px;
+    right:40px;
+    width: 30px;
+}
+.volte-topo{
+    position: absolute;
+    left: 500px;
+    top: 5px;
+    width: 15%;
+    color: #ffffff;
+    text-decoration: none;
+    text-align:center;
+}
+.cima{
+    position: relative;
+    top:40px;
+    right:45px;
+    width: 30px;
+}
+.depois{
+    position: absolute;
+    left: 600px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+}
+.direita{
+    position: relative;
+    top:35px;
+    left:40px;
+    width: 30px;
+}
+
+
+@media screen and (max-width: 700px){
+      .mobile {
+        display: block;
+        /* ou inline, inline-block */
+      }
+      .nav2-mobile{
+        position: absolute;
+        bottom:91.5%;
+        height:10%;
+        width: 100%;
+        z-index: 2;
+    }
+    .mini-logo{
+        position: absolute;
+        bottom:93%;
+        left:45%;
+        z-index: 2;
+    }
+      .desktop-menu{
+    display: none;
+
+      }
+    .mobile-menu {
+    display:block;
+    width:50%;
+    line-height: 1.6em;
+    width:50%;
+    text-align:center;
+    position: relative;
+    margin:0;
+    z-index: 2;
+    }
+      /*Strip the ul of padding and list styling*/
+    .mobile-menu ul {
+    list-style-type:none;
+    margin: 0;
+    padding-left: 0px;
+    text-align:center;
+    width:70%;
+    position: absolute;
+    background: #9767A9;
+    z-index:2;
+    }
+    
+    /*Create a horizontal list with spacing*/
+    .mobile-menu li {
+    display:inline-block;
+    }
+      
+    /*Style for menu links*/
+    .mobile-menu li a {
+    display:block;
+    min-width:40px;
+    text-align: left;
+    color: white;
+    font: normal normal 300 12px/15px Montserrat;
+    text-decoration: none;
+    padding: 10px;  
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    z-index: 2;
+    }
+
+    /*Style for dropdown links*/
+.mobile-menu li:hover ul a {
+    color: #fff;
+	height: 40px;
+	line-height: 40px;
+}
+    /*Hide dropdown links until they are needed*/
+    .mobile-menu li ul {
+    display: none;
+    }
+      
+    /*Make dropdown links vertical*/
+    .mobile-menu li ul li {
+    display: block;
+    float: none;
+    }
+      
+    /*Prevent text wrapping*/
+    .mobile-menu li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+    }
+      
+      
+    /*Style 'show menu' label button and hide it by default*/
+    .mobile-menu .show-menu {
+    text-decoration: none;
+    background-image: url(/assets/Menu.png);
+    background-repeat: no-repeat;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+    }
+      
+    .mobile-menu .show-menu span{
+    padding-left: 20px;
+    }
+      
+    /*Hide checkbox*/
+    .mobile-menu input[type=checkbox]{
+    display: none;
+    }
+      
+    /*Show menu when invisible checkbox is checked*/
+    .mobile-menu input[type=checkbox]:checked ~ #menu{
+    display: block;
+    }
+      
+    /*Responsive Styles*/
+
+    .mobile-menu .lines {
+    height: 5px; 
+    width:20px;
+    padding-right:15px;
+    float:right;
+    z-index: 2;
+  }
+    /*Make dropdown links appear inline*/
+    .mobile-menu ul {
+    position: static;
+    display: none;
+    }
+    /*Create vertical spacing*/
+    .mobile-menu li {
+    margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    .mobile-menu ul li, .mobile-menu li a {
+    width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .mobile-menu .show-menu {
+    display:block;
+    }
+    .midias-sociais{
+        display: none;
+    }
+    h1{
+       display: none;
+    }
+    h3{
+        display: none;
+    }
+    .modelo{
+        position: absolute;
+        top: auto;
+        right: auto;
+        z-index: 1;
+    }
+    .praia, .texto,.primeiro-retangulo, .texto-passos, .coluna-um, .coluna-dois, .row, footer, .rodape, .seg-nav, .config-nav{
+        display: none;
+    }
+    .textos-topo{
+        position: absolute;
+        top: 10%;
+        left: 5px;
+        z-index: 1;
+    }
+    .dicas-e-truques{
+        width: 50%;
+    }
+    .sabe-sobre{
+        margin-top: 10%;
+        width: 70%;
+    }
+    .retangulo-textos{
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        height:65%;
+        background:#9767A9;
+        z-index:1;
+    }
+    .textos-dentro{
+        position: relative;
+        top:2%;
+        text-align: center;
+    }
+    .princesas{
+        position: absolute;
+        top:122%;
+        left: 10%;
+        width: 80%;
+    }
+    .retangulo-mobile-um{
+        position: absolute;
+        background: #9767A9;
+        top:150%;
+        width:100%;
+        height:50%;
+        z-index: 1;
+    }
+    .olhe-espelho{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    width: 90%;
+        
+    text-align:left;
+    font: normal normal 900 20px/27px Playfair Display;
+    color: #FFFFFF;
+    z-index: 2;
+    }
+    .olhando{
+    position: absolute;
+    top: 26%;
+    left: 6%;
+    width: 90%;
+
+    text-align: left;
+    font: normal normal 300 12px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .maria-julia{
+        position: absolute;
+        top:205%;
+        left: 10%;
+        width: 80%;
+    }
+    .retangulo-mobile-dois{
+        position: absolute;
+        background: #9767A9;
+        top:243%;
+        width:100%;
+        height:52%;
+        z-index: 1;
+    }
+    .maria{
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 90%;
+            
+        text-align:left;
+        font: normal normal 900 20px/27px Playfair Display;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    .referencias{
+        position: absolute;
+        top: 20%;
+        left: 6%;
+        width: 90%;
+    
+        text-align: left;
+        font: normal normal 300 12px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .surfista{
+        position: absolute;
+        top:300%;
+        left: 10%;
+        width: 80%;
+    }
+    .retangulo-mobile-tres{
+        position: absolute;
+        background: #9767A9;
+        top:335%;
+        width:100%;
+        height:40%;
+        z-index: 1;
+    }
+    .surfe{
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 90%;
+            
+        text-align:left;
+        font: normal normal 900 20px/27px Playfair Display;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    .amavel{
+        position: absolute;
+        top: 30%;
+        left: 6%;
+        width: 90%;
+    
+        text-align: left;
+        font: normal normal 300 12px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .queen{
+        position: absolute;
+        top:380%;
+        left: 10%;
+        width: 80%;
+    }
+    .retangulo-mobile-quatro{
+        position: absolute;
+        background: #9767A9;
+        top:410%;
+        width:100%;
+        height:40%;
+        z-index: 1;
+    }
+    .ignore{
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 90%;
+            
+        text-align:left;
+        font: normal normal 900 20px/27px Playfair Display;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    .ouvir{
+        position: absolute;
+        top: 20%;
+        left: 6%;
+        width: 90%;
+    
+        text-align: left;
+        font: normal normal 300 12px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .mae-filha{
+        position: absolute;
+        top:455%;
+        left: 10%;
+        width: 80%;
+    }
+    .retangulo-mobile-cinco{
+        position: absolute;
+        background: #9767A9;
+        top:490%;
+        width:100%;
+        height:42%;
+        z-index: 1;
+    }
+    .procure-raizes{
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 90%;
+            
+        text-align:left;
+        font: normal normal 900 20px/27px Playfair Display;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    .raizes{
+        position: absolute;
+        top: 20%;
+        left: 6%;
+        width: 90%;
+    
+        text-align: left;
+        font: normal normal 300 12px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .respeite-fases{
+        position: absolute;
+        top:535%;
+        left: 10%;
+        width: 80%;
+    }
+    .retangulo-mobile-seis{
+        position: absolute;
+        background: #9767A9;
+        top:570%;
+        width:100%;
+        height:32%;
+        z-index: 1;
+    }
+    .suas-fases{
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 90%;
+            
+        text-align:left;
+        font: normal normal 900 20px/27px Playfair Display;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    .frizz{
+        position: absolute;
+        top: 25%;
+        left: 6%;
+        width: 90%;
+    
+        text-align: left;
+        font: normal normal 300 12px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .cabelo-branco{
+        position: absolute;
+        top:608%;
+        left: 10%;
+        width: 80%;
+    }
+    .retangulo-mobile-sete{
+        position: absolute;
+        background: #9767A9;
+        top:640%;
+        width:100%;
+        height:32%;
+        z-index: 1;
+    }
+    .tenha-orgulho{
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 90%;
+            
+        text-align:left;
+        font: normal normal 900 20px/27px Playfair Display;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    .o-ame{
+        position: absolute;
+        top: 25%;
+        left: 6%;
+        width: 90%;
+    
+        text-align: left;
+        font: normal normal 300 12px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .pequeno-cacho{
+        position: absolute;
+        top: 680%;
+        left: 30%;
+        width: 40%;
+    }
+    .reizao{
+        position: absolute;
+        top: 695%;
+        left: 4%;
+        width: 43%;
+    }
+    .queen-bee{
+        position: absolute;
+        top: 695%;
+        left: 49%;
+        width: 20.5%;
+    }
+    .b-jordan{
+        position: absolute;
+        top: 695%;
+        left: 71%;
+        width: 21.7%;
+    }
+    .araujo{
+        position: absolute;
+        top: 712%;
+        left: 49%;
+        width: 44%;
+    }
+    .gloria-maria{
+        position: absolute;
+        top: 742%;
+        left: 4%;
+        width: 90%;
+    }
+    .cabelao{
+        position: absolute;
+        top: 781%;
+        left: 4%;
+        width: 22%;
+    }
+    .serio{
+        position: absolute;
+        top: 781%;
+        left: 27.5%;
+        width: 22%;
+    }
+    .jones{
+        position: absolute;
+        top: 781%;
+        left: 50%;
+        width: 45%;
+    }
+    .sorridente{
+        position: absolute;
+        top: 814.6%;
+        left: 4.5%;
+        width: 21%;
+    }
+    .s-dog{
+        position: absolute;
+        top: 814.6%;
+        left: 28%;
+        width: 21%;
+    }
+    .face{
+        position: absolute;
+        top: 840%;
+        left: 4%;
+        width: 35px;
+    }
+    .ig{
+        position: absolute;
+        top: 840%;
+        left: 17%;
+        width: 35px;
+    }
+    .yt{
+        position: absolute;
+        top: 840%;
+        left: 30%;
+        width: 35px;
+    }
+    .circulo-volte{
+        position: absolute;
+        top:840%;
+        left:55%;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #9767A9;
+    }
+    .circulo-topo{
+        position: absolute;
+        top:840%;
+        left:67%;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #9767A9;
+    }
+    .circulo-seguinte{
+        position: absolute;
+        top:840%;
+        left:79%;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #9767A9;
+    }
+    .volte{
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        color: #fff;
+        font-size: 130%;
+    }
+    .suba{
+        position: absolute;
+        top: 10%;
+        left: 34%;
+        color: #fff;
+        font-size: 130%;
+    }
+    .va{
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        color: #fff;
+        font-size: 130%;
+    }
+    .copyright{
+        position: absolute;
+        top:855%;
+        left: 38px;
+        width: 80%;
+    }
+}
