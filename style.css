@@ -453,7 +453,6 @@ footer{
 @media screen and (max-width: 700px){
       .mobile {
         display: block;
-        /* ou inline, inline-block */
       }
       .nav2-mobile{
         position: absolute;
@@ -482,7 +481,7 @@ footer{
     margin:0;
     z-index: 2;
     }
-      /*Strip the ul of padding and list styling*/
+
     .mobile-menu ul {
     list-style-type:none;
     margin: 0;
@@ -494,12 +493,10 @@ footer{
     z-index:2;
     }
     
-    /*Create a horizontal list with spacing*/
     .mobile-menu li {
     display:inline-block;
     }
       
-    /*Style for menu links*/
     .mobile-menu li a {
     display:block;
     min-width:40px;
@@ -516,35 +513,29 @@ footer{
     z-index: 2;
     }
 
-    /*Style for dropdown links*/
 .mobile-menu li:hover ul a {
     color: #fff;
 	height: 40px;
 	line-height: 40px;
 }
-    /*Hide dropdown links until they are needed*/
     .mobile-menu li ul {
     display: none;
     }
       
-    /*Make dropdown links vertical*/
     .mobile-menu li ul li {
     display: block;
     float: none;
     }
       
-    /*Prevent text wrapping*/
     .mobile-menu li ul li a {
     width: auto;
     min-width: 100px;
     padding: 0 20px;
     }
       
-      
-    /*Style 'show menu' label button and hide it by default*/
     .mobile-menu .show-menu {
     text-decoration: none;
-    background-image: url(/assets/Menu.png);
+    background-image: url(./assets/Menu.png);
     background-repeat: no-repeat;
     padding: 10px;
     display: none;
@@ -555,17 +546,13 @@ footer{
     padding-left: 20px;
     }
       
-    /*Hide checkbox*/
     .mobile-menu input[type=checkbox]{
     display: none;
     }
       
-    /*Show menu when invisible checkbox is checked*/
     .mobile-menu input[type=checkbox]:checked ~ #menu{
     display: block;
     }
-      
-    /*Responsive Styles*/
 
     .mobile-menu .lines {
     height: 5px; 
@@ -574,20 +561,16 @@ footer{
     float:right;
     z-index: 2;
   }
-    /*Make dropdown links appear inline*/
     .mobile-menu ul {
     position: static;
     display: none;
     }
-    /*Create vertical spacing*/
     .mobile-menu li {
     margin-bottom: 1px;
     }
-    /*Make all menu links full width*/
     .mobile-menu ul li, .mobile-menu li a {
     width: 100%;
     }
-    /*Display 'show menu' link*/
     .mobile-menu .show-menu {
     display:block;
     }
